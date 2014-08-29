@@ -1,0 +1,17 @@
+[app]
+home=/path/to/work
+todo_dir: %(home)s/todo
+processing_dir: %(home)s/inprogress
+done_dir: %(home)s/done
+done_marker=done.txt
+log_filename: %(home)s/logs/spike.log
+[aws]
+access_key_id=
+secret_access_key=
+bucket=bethegift-development
+log_bucket=bethegift-logs
+[api]
+base=http://localhost:3000
+ack: %(base)s/api/ack_new_gift
+user=user
+password=password

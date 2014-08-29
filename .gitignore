@@ -1,0 +1,5 @@
+.DS_Store
+*.pyc
+_work
+*.log
+spike.cfg
